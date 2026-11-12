@@ -1,25 +1,25 @@
-# Alocação dinâmica de memória em C
+# Dynamic memory allocation in C
 
-Exercício acadêmico da UTFPR que utiliza o cadastro de funcionários para praticar estruturas, ponteiros e alocação dinâmica.
+Academic UTFPR exercise using employee records to practice structures, pointers and dynamic memory allocation.
 
-## Funcionalidades do exercício
+## Exercise features
 
-- Menu de cadastro, remoção e listagem de funcionários.
-- Associação de dados de nome, cargo, vínculo e data.
-- Funções para liberação de memória.
+- Menu for adding, removing and listing employees.
+- Records with name, role, employment relationship and date.
+- Memory-release functions.
 
-## Organização
+## Structure
 
-- `empresa.h`: tipos e interface.
-- `empresa.c`: operações sobre os dados.
-- `main.c`: fluxo de interação.
+- `empresa.h`: types and interface.
+- `empresa.c`: data operations.
+- `main.c`: interaction flow.
 
-## Compilar
+## Compile
 
 ```bash
 gcc -Wall -Wextra main.c empresa.c -o funcionarios
 ```
 
-## Escopo
+## Scope
 
-Código histórico de avaliação acadêmica. A compilação e execução não foram validadas nesta revisão; revise os fluxos de entrada e a vida útil dos ponteiros antes de usar. Os dados são mantidos em memória.
+Historical academic assessment code. Review input handling and pointer lifetimes before use. Data is held in memory; compilation and execution need validation in the target environment.
